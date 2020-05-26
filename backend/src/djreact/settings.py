@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'c&vwlc+sbbs=l-wb4_xn&&2u6$vkync)!e3w3^tmr^pq2%@s4!'
+SECRET_KEY = 'asw+xnb$#g70+^b1a2e6azip-bj^o(-xx@$&=6-zm*&cekpqzr'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'articles',
+    'articles'
 ]
 
 MIDDLEWARE = [
@@ -120,6 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,

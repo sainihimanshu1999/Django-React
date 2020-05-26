@@ -1,14 +1,3 @@
 from django.shortcuts import render
-from .models import Article
-from rest_framework.generics import ListAPIView, RetrieveAPIView
-from .serializers import ArticleSerializer
 
-
-class ArticleListView(ListAPIView):
-    queryset = Article.objects.all()
-    serializer_class = ArticleSerializer
-
-
-class ArticleDetailView(RetrieveAPIView):
-    queryset = Article.objects.all()
-    serializer_class = ArticleSerializer
+# Create your views here.
